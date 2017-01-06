@@ -1,0 +1,21 @@
+{
+  "name": "barnacle",
+  "version": "0.0.0",
+  "description": "spotify to beatport downloader",
+  "main": "lib/barnacle.js",
+  "scripts": {
+    "test": "jest --config jest-config.json",
+    "test-watch": "jest --watch --config jest-config.json",
+    "build": "babel src/ --out-dir lib",
+    "start": "/usr/local/node/node-v7.4.0-linux-x64/bin/node src/barnacle.js"
+  },
+  "author": "Nathan Rashleigh <n@smokestack.io>",
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "jest-cli": "^15.1.1"
+  },
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
