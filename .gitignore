@@ -17,3 +17,5 @@ log/
 lib/
 
 npm-debug.log
+
+config.js
